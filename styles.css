@@ -161,3 +161,20 @@ img {
         transform: rotate(360deg);
     }
 }
+
+/* Navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+    transition: var(--transition);
+}
+
+.navbar.scrolled {
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    padding: 15px 0;
+}
